@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html, body {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div style="height: 300px; border: 1px solid red;" id="app">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic perferendis illo quo suscipit eligendi sunt? Reprehenderit cumque dolores quia ab quae aut quisquam, rerum aliquam deleniti. Perspiciatis, facilis laborum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic perferendis illo quo suscipit eligendi sunt? Reprehenderit cumque dolores quia ab quae aut quisquam, rerum aliquam deleniti. Perspiciatis, facilis laborum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <div style="width: 100px;height: 100px;background: yellow;"></div>
+    Aliquam hic perferendis illo quo suscipit eligendi sunt? Reprehenderit cumque dolores quia ab quae aut quisquam, rerum aliquam deleniti. Perspiciatis, facilis laborum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic perferendis illo quo suscipit eligendi sunt? Reprehenderit cumque dolores quia ab quae aut quisquam, rerum aliquam deleniti. Perspiciatis, facilis laborum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic perferendis illo quo suscipit eligendi sunt? Reprehenderit cumque dolores quia ab quae aut quisquam, rerum aliquam deleniti. Perspiciatis, facilis laborum.
+  </div>
+</body>
+<script src="../dist/bu-watermark.js"></script>
+<script>
+  var aa
+  function generateWatemark() {
+    aa = new BuWatermark({
+      target: document.getElementById('app'),
+      text: 'bu-watemark'
+    })
+  }
+
+  generateWatemark()
+</script>
+</html>

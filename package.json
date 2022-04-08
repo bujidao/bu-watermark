@@ -1,0 +1,28 @@
+{
+  "name": "bu-watermark",
+  "version": "0.0.1",
+  "description": "web 前端快速生成水印",
+  "keywords": [
+    "front-end",
+    "watermark",
+    "web",
+    "水印",
+    "前端",
+    "js",
+    "ts",
+    "html"
+  ],
+  "main": "dist/bu-watermark.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "alex ceng",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bujidao/bu-watermark.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
